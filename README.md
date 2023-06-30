@@ -80,7 +80,7 @@ Accuracy : 0.9618
 
 <br>
 
-# **3. Testing of 'Live Video' using *OpenCV* library**
+# **3. Testing on 'Live Video' using *OpenCV* library**
 (Refer [live testing.ipynb](live%20testing.ipynb) notebook)
 
 <p align='center'>
