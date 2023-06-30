@@ -101,14 +101,3 @@ Model is tested on Video with the help of *opencv* library (refer []() notebook)
 </p>
 
 
-**Updated parameter**: &nbsp;&nbsp; ${θ'} = {θ} - \left({LearningRate}\right)\frac{∂J}{∂θ}$, &nbsp;&nbsp; $\frac{∂J}{∂θ} = \frac{1}{m}\sum{_{i = 1}^{m}} \left({y'}-{y}\right)\left(\frac{∂y'}{∂θ}\right)$
-
-$\frac{∂y'}{∂min} = \left(\frac{max - y'}{max-min}\right)$, &nbsp; &nbsp;
-$\frac{∂y'}{∂min} = \left(\frac{y'- min}{max-min}\right)$
-
-$\frac{∂y'}{∂SoS} = \left({GrowthRate}\right)\left({max- min}\right)\left({σ1}\right)\left({1-σ1}\right)$, &nbsp;&nbsp;
-$\frac{∂y'}{∂EoS} = -\left({DecayRate}\right)\left({max- min}\right)\left({σ2}\right)\left({1-σ2}\right)$ 
-
-$\frac{∂y'}{∂GrowthRate} = -\left({DoY - SoS}\right)\left({max- min}\right)\left({σ1}\right)\left({1-σ1}\right)$, &nbsp;&nbsp;
-$\frac{∂y'}{∂DecayRate} = \left({DoY -EoS}\right)\left({max- min}\right)\left({σ2}\right)\left({1-σ2}\right)$ 
-
