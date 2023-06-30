@@ -73,6 +73,11 @@ Accuracy : 0.9618
 
 **F1 score**: $(\frac{2Precision.Recall}{Precision+Recall})$ , &nbsp; &nbsp; 0.96(close eye), &nbsp; 0.96(open eye) 
 
+<p align ='center'>
+
+<span align ='center'> **Confusion matrix:** </span><img align='center' src="./assets/confusion%20matrix.png" width="250" height="215" />
+</p>
+
 <br>
 
 # **3. Testing of 'Live Video' using *OpenCV* library**
