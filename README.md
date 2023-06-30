@@ -75,7 +75,7 @@ Accuracy : 0.9618
 
 <p align ='center'>
 
-<span align ='center'> **Confusion matrix:** </span><img align='center' src="./assets/confusion%20matrix.png" width="250" height="215" />
+<span align ='center'> **Confusion matrix:** </span> &nbsp; &nbsp; <img align='center' src="./assets/confusion%20matrix.png" width="250" height="215" />
 </p>
 
 <br>
