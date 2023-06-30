@@ -101,8 +101,7 @@ Model is tested on Video with the help of *opencv* library (refer []() notebook)
 </p>
 
 
-
- ${θ'} = {θ} - \left({LearningRate}\right)\frac{∂J}{∂θ}$, &nbsp;&nbsp; $\frac{∂J}{∂θ} = \frac{1}{m}\sum_{i = 1}^{m} \left({y'}-{y}\right)\left(\frac{∂y'}{∂θ}\right)$
+**Updated parameter**: &nbsp;&nbsp; ${θ'} = {θ} - \left({LearningRate}\right)\frac{∂J}{∂θ}$, &nbsp;&nbsp; $\frac{∂J}{∂θ} = \frac{1}{m}\sum{_{i = 1}^{m}} \left({y'}-{y}\right)\left(\frac{∂y'}{∂θ}\right)$
 
 $\frac{∂y'}{∂min} = \left(\frac{max - y'}{max-min}\right)$, &nbsp; &nbsp;
 $\frac{∂y'}{∂min} = \left(\frac{y'- min}{max-min}\right)$
