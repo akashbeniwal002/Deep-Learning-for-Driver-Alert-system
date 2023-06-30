@@ -72,7 +72,7 @@ Accuracy : 0.9618
 
 **Recall**: $(\frac{True Positive}{True Positive+False Negetive})$ , &nbsp; &nbsp; 0.96(close eye), &nbsp; 0.97(open eye)
 
-**F1 score**: $(\frac{2*Precision*Recall}{Precision+Recall})$ , &nbsp; &nbsp; 0.96(close eye), &nbsp; 0.96(open eye)
+**F1 score**: $(\frac{2*Precision*Recall}{Precision+Recall})$ , &nbsp; &nbsp; 0.96(close eye), &nbsp; 0.96(open eye) 
 
 <br>
 
