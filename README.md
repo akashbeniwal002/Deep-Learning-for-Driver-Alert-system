@@ -43,8 +43,7 @@ Images is in the data data are processed using opencv library. These are resized
 **Metric**: Accuracy (Percent of Correct Predictions)
 
 **Loss Function**: Binary Cross Entropy 
-$ =  - \frac{1}{n}\sum^{n}_{i=1}\left({y_i.log(y'_i) + (1-y_i).log(1-y'_i)}\right)$
-
+$ =  - \frac{1}{n}{\sum^{n}_{i=1}}({{y_i}.{log({y'_i})} + (1-{y_i}).log{(1-{y'}_i)}})$
 
 **Activation Functions**:  Relu (for Internal Layers), Sigmoid (for Output Layer)
 <br>
